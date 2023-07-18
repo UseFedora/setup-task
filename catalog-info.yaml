@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: setup-task
+  namespace: usefedora
+  description: ''
+  tags: []
+  annotations:
+    github.com/project-slug: UseFedora/setup-task
+    backstage.io/techdocs-ref: dir:.
+  links: []
+spec:
+  type: service
+  lifecycle: production
+  owner: Commerce
+  heimdall:
+    reportable: false
+    pci: false
+    products: []
+    squads: []
+    impact: ''
